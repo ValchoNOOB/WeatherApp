@@ -1,0 +1,58 @@
+body{
+  background-color: #3498db;
+  padding: 0;
+  margin: 0;
+}
+.navbar{
+  background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 0;
+}
+.menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.menu a:hover{
+   text-decoration: underline;
+   color: cornsilk;
+}
+.Plovdiv{
+  background-color: #f5f5f5;
+  margin-top: auto;
+  height: 50px;
+  border-radius: 8px;
+}
+.h1{
+  margin: 0 5px 5px;
+}
+.Sofiq{
+  background-color: #f5f5f5;
+  margin-top: auto;
+  height: 50px;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+.Haskovo{
+  background-color: #f5f5f5;
+  margin-top: auto;
+  height: 50px;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+.Varna{
+  background-color: #f5f5f5;
+  margin-top: auto;
+  height: 50px;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+.Burgas{
+  background-color: #f5f5f5;
+  margin-top: auto;
+  height: 50px;
+  border-radius: 8px;
+  margin-top: 5px;
+}

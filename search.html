@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+  </div>
+    <div class="header">
+        <h1>Weather App</h1>
+        <div class="city-select">
+          <label for="cities">Избери град:</label>
+          <select id="cities" name="cities">
+            <option value="">Избери град</option>
+            <option value="Plovdiv">Пловдив</option>
+            <option value="Sofiq">София</option>
+            <option value="Varna">Варна</option>
+            <option value="Burgas">Бургас</option>
+            <option value="Haskovo">Хасково</option>
+          </select>
+          <button onclick="searchWeather()">Search</button>
+        </div>
+      </div>
+
+
+    <script>
+        function searchWeather() {
+          const selectedCity = document.getElementById('cities').value;
+          if (selectedCity) {
+            window.open(selectedCity + '.html', '_blank'); // Opens the selected city's HTML file in a new window
+          } else {
+            alert('Първо избери град.');
+          }
+        }
+      </script>
+</body>
+</html>
